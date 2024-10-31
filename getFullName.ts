@@ -35,4 +35,7 @@ type Person = {
   
   const user = new User("Rinta", "Setyo", 29, "email.email@example.com", "Nugroho");
   console.log(user.getFullName()); // Output
+
+  const user2 = new User("Leo", "Messi", 17, "email.email@example.com", "Lionel");
+  console.log(user2.getFullName()); // Output
   
